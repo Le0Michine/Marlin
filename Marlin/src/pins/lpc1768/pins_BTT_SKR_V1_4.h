@@ -64,6 +64,7 @@
   #define X_STOP_PIN                       P1_29  // X-STOP
 #endif
 
+#define Y_MAX_PIN                      P1_25  // E1DET
 #ifdef Y_STALL_SENSITIVITY
   #define Y_STOP_PIN                  Y_DIAG_PIN
   #if Y_HOME_DIR < 0
